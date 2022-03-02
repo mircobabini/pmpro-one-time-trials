@@ -1,0 +1,76 @@
+# Copyright (C) 2022 Stranger Studios, Mirco Babini
+# This file is distributed under the same license as the Paid Memberships Pro - One Time Trials Add On plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Paid Memberships Pro - One Time Trials Add On 1.0.0\n"
+"Report-Msgid-Bugs-To: info@paidmembershipspro.com\n"
+"POT-Creation-Date: 2022-03-02T16:15:25+00:00\n"
+"PO-Revision-Date: 2022-03-02 17:42+0100\n"
+"Last-Translator: Mirco Babini <mirkolofio@gmail.com>\n"
+"Language-Team: Paid Memberships Pro <info@paidmembershipspro.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: pmpro-one-time-trials\n"
+
+#. Plugin Name of the plugin
+msgid "Paid Memberships Pro - One Time Trials Add On"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://www.paidmembershipspro.com/add-ons/pmpro-one-time-trials/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Offer trial memberships that can only be used once"
+msgstr ""
+
+#. Author of the plugin
+msgid "Stranger Studios, Mirco Babini"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.strangerstudios.com"
+msgstr ""
+
+#: includes/admin.php:20
+msgid "Fallback Redirect Level:"
+msgstr "Reindirizza a livello di riserva:"
+
+#: includes/admin.php:35
+msgid "Disabled. Just show a notice."
+msgstr "Disabilitato. Mostra solo un avviso."
+
+#: includes/admin.php:49
+msgid "Redirect to another level if this one can't be subscribed by the current user. Leave it empty to just show a notice."
+msgstr "Reindirizza a un altro livello se quello corrente non può essere attivato dall’utente. Lascia vuoto se vuoi solo mostrare un avviso."
+
+#: includes/checkout-redirect.php:50
+msgid "Since you can't subscribe <strong>%s</strong>, we think you want to subscribe <strong>%s</strong>."
+msgstr "Dato che non puoi attivare <strong>%s</strong>, pensiamo che tu voglia attivare <strong>%s</strong>."
+
+#: includes/checkout.php:16 includes/checkout.php:51
+msgid "You have already used up your trial membership. Please select a full membership to checkout."
+msgstr "Hai già effettuato un abbonamento di prova. Seleziona un abbonamento regolare per procedere."
+
+#: includes/checkout.php:53
+msgid "You have already had a membership. Please select a full membership to checkout."
+msgstr "Hai già avuto un abbonamento in passato, quindi non puoi effettuare un’altra prova. Seleziona un abbonamento regolare per procedere."
+
+#: pmpro-one-time-trial.php:60
+msgid "View Documentation"
+msgstr "Vedi Documentazione"
+
+#: pmpro-one-time-trial.php:60
+msgid "Docs"
+msgstr "Docs"
+
+#: pmpro-one-time-trial.php:61
+msgid "Visit Customer Support Forum"
+msgstr "Vai al Forum di Supporto Clienti"
+
+#: pmpro-one-time-trial.php:61
+msgid "Support"
+msgstr "Supporto"

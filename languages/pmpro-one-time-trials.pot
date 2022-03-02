@@ -1,0 +1,76 @@
+# Copyright (C) 2022 Stranger Studios, Mirco Babini
+# This file is distributed under the same license as the Paid Memberships Pro - One Time Trials Add On plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Paid Memberships Pro - One Time Trials Add On 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pmpro-one-time-trials\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-03-02T16:40:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: pmpro-one-time-trials\n"
+
+#. Plugin Name of the plugin
+msgid "Paid Memberships Pro - One Time Trials Add On"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://www.paidmembershipspro.com/add-ons/pmpro-one-time-trials/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Offer trial memberships that can only be used once"
+msgstr ""
+
+#. Author of the plugin
+msgid "Stranger Studios, Mirco Babini"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.strangerstudios.com"
+msgstr ""
+
+#: includes/admin.php:20
+msgid "Fallback Redirect Level:"
+msgstr ""
+
+#: includes/admin.php:35
+msgid "Disabled. Just show a notice."
+msgstr ""
+
+#: includes/admin.php:49
+msgid "Redirect to another level if this one can't be subscribed by the current user. Leave it empty to just show a notice."
+msgstr ""
+
+#: includes/checkout-redirect.php:50
+msgid "Since you can't subscribe <strong>%s</strong>, we think you want to subscribe <strong>%s</strong>."
+msgstr ""
+
+#: includes/checkout.php:16
+#: includes/checkout.php:51
+msgid "You have already used up your trial membership. Please select a full membership to checkout."
+msgstr ""
+
+#: includes/checkout.php:53
+msgid "You have already had a membership. Please select a full membership to checkout."
+msgstr ""
+
+#: pmpro-one-time-trials.php:62
+msgid "View Documentation"
+msgstr ""
+
+#: pmpro-one-time-trials.php:62
+msgid "Docs"
+msgstr ""
+
+#: pmpro-one-time-trials.php:63
+msgid "Visit Customer Support Forum"
+msgstr ""
+
+#: pmpro-one-time-trials.php:63
+msgid "Support"
+msgstr ""
