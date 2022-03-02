@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Paid Memberships Pro - One Time Trials Add On 1.0.0\n"
 "Report-Msgid-Bugs-To: info@paidmembershipspro.com\n"
 "POT-Creation-Date: 2022-03-02T16:15:25+00:00\n"
-"PO-Revision-Date: 2022-03-02 17:42+0100\n"
+"PO-Revision-Date: 2022-03-02 23:37+0100\n"
 "Last-Translator: Mirco Babini <mirkolofio@gmail.com>\n"
 "Language-Team: Paid Memberships Pro <info@paidmembershipspro.com>\n"
 "Language: it_IT\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #. Description of the plugin
 msgid "Offer trial memberships that can only be used once"
-msgstr ""
+msgstr "Permette un solo utilizzo per utente degli abbonamenti trial"
 
 #. Author of the plugin
 msgid "Stranger Studios, Mirco Babini"
@@ -55,7 +55,7 @@ msgstr "Dato che non puoi attivare <strong>%s</strong>, pensiamo che tu voglia a
 msgid "You have already used up your trial membership. Please select a full membership to checkout."
 msgstr "Hai già effettuato un abbonamento di prova. Seleziona un abbonamento regolare per procedere."
 
-#: includes/checkout.php:53
+#: includes/checkout.php:21 includes/checkout.php:53
 msgid "You have already had a membership. Please select a full membership to checkout."
 msgstr "Hai già avuto un abbonamento in passato, quindi non puoi effettuare un’altra prova. Seleziona un abbonamento regolare per procedere."
 

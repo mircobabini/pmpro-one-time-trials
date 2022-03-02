@@ -18,7 +18,7 @@ function pmproott_registration_checks( $value ) {
 
 				$value = false;
 			} elseif ( pmproott_user_has_been_subscribed() ) {
-				$pmpro_msg  = 'Hai già attivato un abbonamento in passato, quindi non puoi attivare un abbonamento trial.';
+				$pmpro_msg  = __( 'You have already had a membership. Please select a full membership to checkout.', 'pmpro-one-time-trials' );
 				$pmpro_msgt = 'pmpro_error';
 
 				$value = false;
