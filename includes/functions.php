@@ -23,15 +23,27 @@ function pmproott_user_has_been_subscribed() {
 	return $bool;
 }
 
-function pmproott_user_has_consumed_trial() {
+/**
+ * Check if the user already consumed one or more levels
+ *
+ * @param int|array $level_ids
+ *
+ * @return mixed|void
+ */
+function pmproott_user_has_consumed_trial( $level_ids = array() ) {
 	$bool = false;
 
 	if ( is_user_logged_in() ) {
 		global $wpdb;
 
-		$trial_levels = pmproott_get_trial_levels();
+		if ( empty( $level_ids ) ) {
+			$trial_levels     = pmproott_get_trial_levels();
+			$trial_levels_ids = array_keys( $trial_levels );
+		} else {
+			$trial_levels_ids = (array) $level_ids;
+		}
 
-		$membership_id = $wpdb->get_var( "SELECT membership_id FROM $wpdb->pmpro_memberships_users WHERE user_id = '" . esc_sql( get_current_user_id() ) . "' AND membership_id IN (" . implode( ',', array_keys( $trial_levels ) ) . ") LIMIT 1" );
+		$membership_id = $wpdb->get_var( "SELECT membership_id FROM $wpdb->pmpro_memberships_users WHERE user_id = '" . esc_sql( get_current_user_id() ) . "' AND membership_id IN (" . implode( ',', $trial_levels_ids ) . ") LIMIT 1" );
 		if ( ! empty( $membership_id ) ) {
 			$bool = true;
 		}
