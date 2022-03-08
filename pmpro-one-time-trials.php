@@ -16,12 +16,16 @@ define( 'PMPROOTT_VERSION', '1.0.0' );
 define( 'PMPROOTT_BASE_FILE', __FILE__ );
 define( 'PMPROOTT_DIR', dirname( __FILE__ ) );
 
+require_once PMPROOTT_DIR . '/includes/database.php';
 require_once PMPROOTT_DIR . '/includes/functions.php';
 
 require_once PMPROOTT_DIR . '/includes/admin.php';
 require_once PMPROOTT_DIR . '/includes/checkout.php';               // Add messages to checkout.
 require_once PMPROOTT_DIR . '/includes/checkout-redirect.php';      // Auto-redirect to a paid level.
 require_once PMPROOTT_DIR . '/includes/checkout-disable-parts.php'; // Hide following checkout parts.
+
+require_once PMPROOTT_DIR . '/includes/gateway-paypal.php'; // Logics for gateway: PayPal
+// require_once PMPROOTT_DIR . '/includes/gateway-stripe.php'; // Logics for gateway: Stripe
 
 /**
  * Include tests
