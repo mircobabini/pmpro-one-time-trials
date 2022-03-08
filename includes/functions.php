@@ -52,11 +52,8 @@ function pmproott_get_trial_levels() {
 
 	$levels = pmpro_getAllLevels( true, true );
 	foreach ( $levels as $level ) {
-		// check trial from core
-		if ( 0.00 === $level->initial_payment && $level->billing_amount > 0 ) {
-			if ( (int) $level->trial_limit > 0 ) {
-				$trial_levels[ (int) $level->id ] = $trial_levels;
-			}
+		if ( pmpro_isLevelTrial( $level ) ) {
+			$trial_levels[ (int) $level->id ] = $trial_levels;
 		}
 	}
 
