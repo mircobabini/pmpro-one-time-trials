@@ -4,8 +4,8 @@ Plugin Name: Paid Memberships Pro - One Time Trials Add On
 Plugin URI: http://www.paidmembershipspro.com/add-ons/pmpro-one-time-trials/
 Description: Offer trial memberships that can only be used once
 Version: 1.0.0
-Author: Stranger Studios, Mirco Babini
-Author URI: http://www.strangerstudios.com
+Author: Paid Memberships Pro
+Author URI: https://www.paidmembershipspro.com
 Text Domain: pmpro-one-time-trials
 Domain Path: /languages
 
