@@ -3,16 +3,16 @@
 Plugin Name: Paid Memberships Pro - One Time Trials Add On
 Plugin URI: http://www.paidmembershipspro.com/add-ons/pmpro-one-time-trials/
 Description: Offer trial memberships that can only be used once
-Version: 1.0.0
+Version: 1.1.0
 Author: Paid Memberships Pro
 Author URI: https://www.paidmembershipspro.com
 Text Domain: pmpro-one-time-trials
 Domain Path: /languages
 
-zip -r pmpro-one-time-trials-1.0.0.zip pmpro-one-time-trials -x "*.DS_Store" -x "*.git*"; open .
+zip -r pmpro-one-time-trials.zip pmpro-one-time-trials -x "*.DS_Store" -x "*.git*"; open .
 */
 
-define( 'PMPROOTT_VERSION', '1.0.0' );
+define( 'PMPROOTT_VERSION', '1.1.0' );
 define( 'PMPROOTT_BASE_FILE', __FILE__ );
 define( 'PMPROOTT_DIR', dirname( __FILE__ ) );
 
