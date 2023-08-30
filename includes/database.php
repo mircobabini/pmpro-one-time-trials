@@ -3,7 +3,7 @@
  * @action admin_init
  */
 function pmproott_db_check_upgrade() {
-	$pmpro_invoices_db_version = pmpro_getOption( 'ott_db_version' );
+	$pmpro_invoices_db_version = get_option( 'pmpro_ott_db_version' );
 
 	global $wpdb;
 	$wpdb->hide_errors();
@@ -18,7 +18,7 @@ function pmproott_db_check_upgrade() {
 	if ( $pmpro_invoices_db_version < PMPROOTT_VERSION ) {
 		pmproott_db_update();
 
-		pmpro_setOption( 'ott_db_version', PMPROOTT_VERSION );
+		update_option( 'pmpro_ott_db_version', PMPROOTT_VERSION );
 		$pmpro_invoices_db_version = PMPROOTT_VERSION;
 	}
 
