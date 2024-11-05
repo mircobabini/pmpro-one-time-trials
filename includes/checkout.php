@@ -8,9 +8,9 @@
 function pmproott_registration_checks( $value ) {
 	global $pmpro_msg, $pmpro_msgt;
 
-	$level_id = intval( isset( $_REQUEST['level'] ) ? $_REQUEST['level'] : 0 );
+  $level_id = intval( pmpro_getLevelAtCheckout()->id );
 
-	if ( pmproott_level_is_trial( $level_id ) && ! pmproott_user_can_subscribe_level( $level_id ) ) {
+	if ( $level_id && pmproott_level_is_trial( $level_id ) && ! pmproott_user_can_subscribe_level( $level_id ) ) {
 		$value = false;
 
 		$pmpro_msgt = 'pmpro_error';

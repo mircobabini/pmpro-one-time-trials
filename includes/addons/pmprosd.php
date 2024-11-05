@@ -13,7 +13,7 @@ add_filter( 'pmproott_trial_levels', function ( $trial_levels ) {
 	$levels = pmpro_getAllLevels( true, true );
 	foreach ( $levels as $level ) {
 		$delay = get_option( 'pmpro_subscription_delay_' . $level->id, '' );
-		if ( ! empty( $delay ) && is_numeric( $delay ) ) {
+		if ( ! empty( $delay ) && is_numeric( $delay ) && empty( $level->initial_payment ) ) {
 			$trial_levels[ (int) $level->id ] = $level;
 		}
 	}
